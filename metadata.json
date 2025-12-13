@@ -1,0 +1,8 @@
+{
+  "name": "PolyGlotMeet",
+  "description": "A real-time multi-party video calling app with live translation, transcription, and recording capabilities.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
