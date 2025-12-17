@@ -1,9 +1,9 @@
 import { Routes, Route, Navigate } from 'react-router-dom';
 import { useState, useEffect } from 'react';
-import Login from './pages/Login';
-import Dashboard from './pages/Dashboard';
-import Meeting from './pages/Meeting';
-import PreJoin from './pages/PreJoin';
+import Login from './pages/Login.tsx';
+import Dashboard from './pages/Dashboard.tsx';
+import Meeting from './pages/Meeting.tsx';
+import PreJoin from './pages/PreJoin.tsx';
 import { supabase } from './lib/supabaseClient';
 import { Session } from '@supabase/supabase-js';
 

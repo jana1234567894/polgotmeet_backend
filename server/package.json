@@ -1,22 +1,24 @@
 {
   "name": "polyglotmeet-server",
   "version": "1.0.0",
-  "description": "Signaling server for PolyGlotMeet",
-  "main": "index.js",
+  "description": "Secure backend for PolyGlotMeet with LiveKit + Supabase",
+  "type": "module",
+  "main": "src/server.js",
   "scripts": {
-    "dev": "nodemon index.js",
-    "start": "node index.js"
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.87.1",
-    "bcryptjs": "^3.0.3",
     "cors": "^2.8.5",
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
-    "livekit-server-sdk": "^2.15.0",
-    "socket.io": "^4.7.2"
+    "livekit-server-sdk": "^2.15.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.11"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
